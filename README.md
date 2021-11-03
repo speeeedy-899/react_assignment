@@ -1,3 +1,3 @@
-# react_assignment
+# React Assignment
 React App assignment given by Saarth.AI
-<a href'"https://speeeedy-899.github.io/react_assignment/">Deployment</a>
+<a href="https://speeeedy-899.github.io/react_assignment/">Deployment</a>
