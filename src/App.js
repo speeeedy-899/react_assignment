@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Upload from './upload.jsx';
 
 function App() {
   return (
+    <header className="App-header">
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My Saarthi.AI react assignment.
-          By Utsav Apurva.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="heading"> Saarthi.AI Assignment</h1>
+      <div>
+        <h2>Please upload an audio file:</h2>
+        <Upload />
+      </div>
     </div>
+    </header>
   );
 }
 
